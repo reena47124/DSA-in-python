@@ -1,5 +1,5 @@
 #matrix
-#find the adjoint of a matrix
+#find the inverse of a matrix
 def determinant(mat):
     n=len(mat)
 
@@ -40,7 +40,22 @@ def adjoint(mat):
 
     return adj
 
+
+
+def inverse(mat):
+    det=determinant(mat)
+    if det==0:
+        print("inverse doesnt exist")
+        return None
+    adj=adjoint(mat)
+    n=len(mat)
+    inv=[[0 for j in range(n)] for i in range(n)]
+    for i in range(n):
+        for j in range(n):
+            inv[i][j]=adj[i][j]/det
+    return inv
+
 a=[[1,2,3],[4,5,6],[7,8,10]]
-print(adjoint(a))
+print(inverse(a))
 
-
+        
