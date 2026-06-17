@@ -6,5 +6,5 @@ for i in range(len(a)):
     if a[i]==ele:
         print(f"element found at:{i}")
         break
-    else:
-        print(f"element doest exist,-1")
+else:
+    print(f"element doest exist,-1")
