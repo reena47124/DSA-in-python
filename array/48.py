@@ -1,6 +1,6 @@
 #array
 #replace with adjacent multiplication,naive approach
-a=[1,2,3,4,5,6,7,8,9]
+a=[1,2,3,4,5]
 n=len(a)
 b=[]
 for i in range(len(a)):
