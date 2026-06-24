@@ -1,5 +1,5 @@
 #two-pointer
-#dutch national flag problem
+#dutch national flag problem,naive approach
 def func_dutch(a):
     c0=0
     c1=0
