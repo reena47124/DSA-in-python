@@ -1,0 +1,5 @@
+#bit manipulation
+#divide a number by 2 using the right-shift operator.
+num1=10
+num2=num1>>1
+print(num2)
