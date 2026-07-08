@@ -14,7 +14,7 @@ class Stack:
     def peek(self):
         if self.top==-1:
             print("stack is empty")
-            return
+            return -1
         value=self.a[self.top]
         return value
 s=Stack(5)
